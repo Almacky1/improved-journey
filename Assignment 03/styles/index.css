@@ -1,0 +1,73 @@
+#grad {
+  background-image: linear-gradient(to bottom right, red, yellow);  
+    
+}
+
+.iphone .nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+
+.makeCap {
+    text-transform: uppercase;
+}
+
+.sp {
+    margin-left: 0.75rem;
+}
+
+.iphone .nav .mid {
+    text-align: center;
+}
+
+
+.iphone .nav .lst {
+    text-align: right;
+}
+
+.class img { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+img {
+    border-radius: 2rem 2rem 2rem 2rem;
+    display: grid;
+    height: 100%;
+    width: 50%;
+
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 30px;
+    height: auto;
+    margin-top: 50px;
+    place-items: center;
+    
+}
+
+.rec {
+    height: 20rem;
+    background-color: rgb(138, 138, 128);
+    margin-top: 20rem;
+    padding-top: 10rem;
+   
+}
+
+
+.rec .recicons {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: auto;
+    width: 100%;
+    place-items: center;
+    
+}

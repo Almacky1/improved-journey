@@ -1,0 +1,96 @@
+body {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    
+}
+ 
+.iphone .nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.makeCap {
+    text-transform: uppercase;
+}
+
+.sp {
+    margin-left: 0.75rem;
+}
+
+.iphone .nav .mid {
+    text-align: center;
+}
+
+
+.iphone .nav .lst {
+    text-align: right;
+}
+
+ img { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+
+img {
+    border-radius: 2rem 2rem 2rem 2rem;
+    display: grid;
+    height: 150px;
+    width: 150px;
+    padding-bottom: 10px;
+
+
+}
+
+.row.facetime {
+    width: 100%;
+    gap: 50px;
+    height: auto;
+   
+    
+}
+
+.facetime {
+    gap: 10px;
+   text-align: justify;
+   gap: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 200px;
+    place-items: center;
+}
+
+div {
+    padding-bottom: 30px;
+    
+}
+
+.rec {
+    height: 9rem;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    margin-top: 100px;
+    padding-top: 25px;
+}
+
+.rec .recicons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    place-items: center;
+}
+
